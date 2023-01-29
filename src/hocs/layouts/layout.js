@@ -1,4 +1,4 @@
-import { connect, Connect } from "react-redux";
+import { connect } from "react-redux";
 
 function Layout({children}) {
     return(
@@ -9,8 +9,8 @@ function Layout({children}) {
 }
 
 
-const mapStateToProp = state => ({
+const mapStateToProps = state => ({
     // Para llamar a cualquier variable en REDUX
 })
 
-export default connect(mapStateToProp, {}) (Layout)
+export default connect(mapStateToProps, {}) (Layout)

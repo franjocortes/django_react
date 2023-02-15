@@ -21,12 +21,12 @@ function Navbar() {
                     className="" />
                 </Link>
                 <div className="ml-4 mt-2 flex-shrink-0">
-                    <NavLink to="/casos" className="inline-flex text-lg font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4">Casos</NavLink>
-                    <NavLink to="/servicios" className="inline-flex text-lg font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4">Servicios</NavLink>
-                    <NavLink to="/nosotros" className="inline-flex text-lg font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4">Nosotros</NavLink>
-                    <NavLink to="/carreras" className="inline-flex text-lg font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4">Carreras</NavLink>
-                    <NavLink to="/blog" className="inline-flex text-lg font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4">Blog</NavLink>
-                    <NavLink to="/contacto" className="inline-flex text-lg font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 mx-4">Contacto</NavLink>
+                    <NavLink to="/casos" className="inline-flex text-lg font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 transition duration-300 ease-in-out mx-4">Casos</NavLink>
+                    <NavLink to="/servicios" className="inline-flex text-lg font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 transition duration-300 ease-in-out mx-4">Servicios</NavLink>
+                    <NavLink to="/nosotros" className="inline-flex text-lg font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 transition duration-300 ease-in-out mx-4">Nosotros</NavLink>
+                    <NavLink to="/carreras" className="inline-flex text-lg font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 transition duration-300 ease-in-out mx-4">Carreras</NavLink>
+                    <NavLink to="/blog" className="inline-flex text-lg font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 transition duration-300 ease-in-out mx-4">Blog</NavLink>
+                    <NavLink to="/contacto" className="inline-flex text-lg font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-orange-500 transition duration-300 ease-in-out mx-4">Contacto</NavLink>
 
                     <Link
                         to="/contacto"
